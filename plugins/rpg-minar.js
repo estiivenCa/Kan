@@ -37,7 +37,6 @@ user.lastmiming = new Date * 1
 handler.help = ['minar']
 handler.tags = ['rpg']
 handler.command = ['minar', 'miming', 'mine'] 
-handler.register = true 
 handler.group = true
 export default handler
 
