@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+/* import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 
 
@@ -67,3 +67,4 @@ async function xnxxdl(URL) {
     }).catch((err) => reject({code: 503, status: false, result: err}));
   });
 }
+ */
