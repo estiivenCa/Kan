@@ -1,4 +1,4 @@
-import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
+/* import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
 import fetch from 'node-fetch';
 import {sticker} from "../lib/sticker.js";
 
@@ -59,4 +59,4 @@ let url = apislap.url;
 
 handler.command = /^fgmp3|dlmp3|getaud|yt(a|mp3)$/i;
 
-export default handler;
+export default handler; */
