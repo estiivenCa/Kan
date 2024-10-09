@@ -83,8 +83,6 @@ var handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems }) =
 handler.help = ['mega'];
 handler.tags = ['descargas'];
 handler.command = ['mega'];
-handler.diamond = true;
-handler.register = true;
 handler.group = true;
 
 export default handler;
