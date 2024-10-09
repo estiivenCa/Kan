@@ -1,4 +1,4 @@
-import gtts from 'node-gtts';
+/* import gtts from 'node-gtts';
 import {readFileSync, unlinkSync} from 'fs';
 import {join} from 'path';
 const defaultLang = 'es';
@@ -43,4 +43,4 @@ function tts(text, lang = 'es') {
       reject(e);
     }
   });
-}
+} */
