@@ -127,6 +127,5 @@ handler.help = ["pinterest"];
 handler.tags = ["buscador"];
 handler.estrellas = 1;
 handler.group = true;
-handler.register = true
 handler.command = ['pinterest'];
 export default handler;
