@@ -1,4 +1,4 @@
-const ro = 30;
+/* const ro = 30;
 const handler = async (m, {conn, usedPrefix, command}) => {
   const time = global.db.data.users[m.sender].lastrob2 + 7200000;
   if (new Date - global.db.data.users[m.sender].lastrob2 < 7200000) {
@@ -38,3 +38,4 @@ function msToTime(duration) {
   seconds = (seconds < 10) ? '0' + seconds : seconds;
   return hours + ' Hora(s) ' + minutes + ' Minuto(s)';
     }
+ */
