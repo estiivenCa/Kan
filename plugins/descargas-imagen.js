@@ -45,5 +45,4 @@ handler.help = ['imagen <query>'];
 handler.tags = ['buscador'];
 handler.command = ['image','imagen', 'img'];
 handler.group = true;
-handler.register = true
 export default handler;
