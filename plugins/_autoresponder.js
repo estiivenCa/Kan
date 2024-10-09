@@ -1,4 +1,4 @@
-import axios from 'axios';
+/* import axios from 'axios';
 import { sticker } from '../lib/sticker.js';
 
 let handler = m => m;
@@ -38,4 +38,4 @@ return conn.reply(m.chat, `💔 *Ocurrió un fallo*\n🍄 *Detalles:* ${error}`,
 }
 }
 
-export default handler;
+export default handler; */
