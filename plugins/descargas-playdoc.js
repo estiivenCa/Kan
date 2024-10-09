@@ -5,7 +5,7 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 
 const lolkeysapi = '8fdb6bf3e9d527f7a6476f4b'; // Aquí defines tu clave API
-const MAX_FILE_SIZE_MB = 200; // Límite de tamaño de archivo en MB
+const MAX_FILE_SIZE_MB = 250; // Límite de tamaño de archivo en MB
 
 const handler = async (m, { conn, command, args, text, usedPrefix }) => {
     if (!text) return conn.reply(m.chat, `🧿 *Ingrese un nombre de una canción de YouTube*\n\nEjemplo, !${command} falling - Daniel Trevor`, m);
