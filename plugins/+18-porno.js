@@ -1,4 +1,4 @@
-import axios from 'axios';
+/* import axios from 'axios';
 const handler = async (m, {command, conn, usedPrefix}) => {
 if (!db.data.chats[m.chat].modohorny && m.isGroup) return m.reply('🚩 *¡Estos comandos están desactivados!*');
 conn.reply(m.chat, `🚩 *Enviando ${command}...*`, m, {
@@ -16,4 +16,4 @@ handler.command = ['nsfwloli', 'nsfwfoot', 'nsfwass', 'nsfwbdsm', 'nsfwcum', 'ns
 handler.tags = ['nsfw'];
 handler.group = true;
 handler.register = true
-export default handler;
+export default handler; */
