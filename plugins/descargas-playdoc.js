@@ -111,7 +111,7 @@ handler.help = ['play7', 'play8', 'playdoc', 'playdoc2'];
 handler.tags = ['descargas'];
 handler.command = ['playdoc', 'playdoc2', 'play7', 'play8'];
 handler.group = true;
-handler.register = true;
+
 
 export default handler;
 
