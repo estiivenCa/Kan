@@ -1,4 +1,4 @@
-let handler = async (m, { conn }) => {
+/* let handler = async (m, { conn }) => {
   const usuario = m.pushName || 'Usuario';
   const videoUrl = 'https://telegra.ph/file/330a7838421e8f555b7be.mp4';
 
@@ -15,4 +15,4 @@ let handler = async (m, { conn }) => {
 
 handler.command = ['tutorialreg']
 
-export default handler;
+export default handler; */
