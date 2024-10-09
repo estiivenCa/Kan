@@ -18,7 +18,7 @@ handler.help = ['trabajar']
 handler.tags = ['rpg']
 handler.command = ['w','work','chambear','chamba', 'trabajar']
 handler.group = true;
-handler.register = true
+
 export default handler
 
 function toNum(number) {
