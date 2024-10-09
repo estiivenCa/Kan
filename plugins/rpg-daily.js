@@ -28,7 +28,6 @@ handler.tags = ['rpg']
 handler.command = ['daily', 'claim']
 
 handler.group = true;
-handler.register = true
 
 export default handler
 
