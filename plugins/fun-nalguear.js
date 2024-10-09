@@ -36,7 +36,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['violar @tag'];
 handler.tags = ['fun'];
 handler.command = ['nalguear'];
-handler.register = true;
 handler.group = true;
 
 export default handler;
