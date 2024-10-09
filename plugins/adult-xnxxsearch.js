@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+/* import fetch from 'node-fetch';
 
 const handler = async (m, {text, usedPrefix, command}) => {
   const datas = global
@@ -71,3 +71,4 @@ async function xnxxsearch(query) {
 }
 
 
+ */
