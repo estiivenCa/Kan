@@ -1,4 +1,4 @@
-import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
+/* import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
 import fetch from 'node-fetch';
 import {sticker} from "../lib/sticker.js";
 let handler = async (m, { conn, args }) => {
@@ -56,4 +56,4 @@ await conn.sendMessage(m.chat, { delete: stickerMessage.key });
 }
 };
 handler.command = /^fgmp4|dlmp4|getvid|yt(v|mp4)?$/i;
-export default handler;
+export default handler; */
