@@ -32,7 +32,9 @@ let texto = `🚩 *${global.botname}*
 → ${groups.length} *Grupos*
 
 🏆 *Servidor:*
-➤ *Ram ⪼* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
+➤ *Ram ⪼* ${format(totalmem() - freemem())} / ${format(totalmem())}
+
+👑 *Provided by Stiiven*`.trim()
 
 m.react('✈️')
 
@@ -41,7 +43,7 @@ conn.reply(m.chat, texto, m, rcanal, )
 
 }
 handler.help = ['speed']
-handler.tags = ['info']
+handler.tags = ['main']
 handler.command = ['speed']
 handler.register = true
 export default handler

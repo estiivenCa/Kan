@@ -10,6 +10,31 @@ let handler = async (_0x10bd40, {
   usedPrefix: _0x55e61b,
   command: _0x5ad406
 }) => {
+  // Lista de palabras prohibidas
+  const prohibited = [
+    'se men', 'hen tai', 'se xo', 'te tas', 'cu lo', 'c ulo', 'cul o', 
+    'ntr', 'rule34', 'rule', 'caca', 'polla', 'femjoy', 'porno', 
+    'porn', 'gore', 'onlyfans', 'sofiaramirez01', 'kareli', 'karely', 
+    'cum', 'semen', 'puta', 'puto', 'culo', 'putita', 'putito', 
+    'pussy', 'hentai', 'pene', 'coño', 'asesinato', 'zoofilia', 
+    'mia khalifa', 'desnudo', 'desnuda', 'cuca', 'chocha', 'muertos', 
+    'pornhub', 'xnxx', 'xvideos', 'teta', 'vagina', 'marsha may', 
+    'misha cross', 'sexmex', 'furry', 'furro', 'furra', 'xxx', 
+    'rule34', 'panocha', 'pedofilia', 'necrofilia', 'pinga', 
+    'horny', 'ass', 'nude', 'popo', 'nsfw', 'femdom', 'futanari', 
+    'erofeet', 'sexo', 'sex', 'yuri', 'ero', 'ecchi', 'blowjob', 
+    'anal', 'ahegao', 'pija', 'verga', 'trasero', 'violation', 
+    'violacion', 'bdsm', 'cachonda', '+18', 'cp', 'mia marin', 
+    'lana rhoades', 'cepesito', 'hot', 'buceta', 'xxx', 'nalga', 
+    'nalgas'
+  ];
+
+  // Verificar si hay palabras prohibidas en el texto
+  let foundProhibitedWord = prohibited.find(word => _0x27db11.toLowerCase().includes(word));
+  if (foundProhibitedWord) {
+    return _0x9c7141.reply(_0x10bd40.chat, `🚩 *No daré resultado a tu solicitud por pajin* - Palabra prohibida: ${foundProhibitedWord}`, _0x10bd40);
+  }
+
   if (!_0x27db11) {
     return _0x9c7141.reply(_0x10bd40.chat, "🍟 *¿Que quieres buscar en pinterest?*", _0x10bd40, rcanal);
   }
@@ -18,7 +43,7 @@ let handler = async (_0x10bd40, {
  contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
  title: packname,
  body: wm,
- previewType: 0, thumbnail: icons,
+ previewType: 0, 
  sourceUrl: channel }}})
   async function _0x3f3fc7(_0x5f4723) {
     const {
