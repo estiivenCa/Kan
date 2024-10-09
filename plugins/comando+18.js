@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+/* import fetch from 'node-fetch';
 const handler = async (m, {conn, command, usedPrefix}) => {
   if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '🚩 *¡Estos comandos están desactivados!*';
 conn.reply(m.chat, `🚩 Enviando el *${command}*`, m, {
@@ -156,4 +156,4 @@ global.videosxxxc2 = [
 "https://telegra.ph/file/9ed60b18e79fcfebcd76c.mp4",
 "https://telegra.ph/file/d58096000ad5eaef0b05e.mp4",
 "https://telegra.ph/file/60b4c8ebeadebb7e0da06.mp4"
-];
+]; */
