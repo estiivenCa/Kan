@@ -22,7 +22,7 @@ global.owner = [
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
 global.mods = ['', '', '', '', '']
 
-global.suittag = ['3204545069']
+global.suittag = ['573204545069']
 global.prems = []
 
 //cambiar a true si el bot detecta sus propios comandos.
