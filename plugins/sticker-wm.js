@@ -21,6 +21,5 @@ const handler = async (m, {conn, text}) => {
 handler.help = ['wm <packname>|<author>'];
 handler.tags = ['sticker'];
 handler.group = true;
-handler.register = true
 handler.command = ['take','wm'];
 export default handler;
