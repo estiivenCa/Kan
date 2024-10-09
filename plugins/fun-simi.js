@@ -16,7 +16,6 @@ throw '🚩 *Ocurrió un error*';
 handler.help = ['simi', 'bot'];
 handler.tags = ['fun'];
 handler.group = true;
-handler.register = true
 handler.command = ['simi','bot','alexa','Megu','Megumin','ai']
 export default handler;
 
