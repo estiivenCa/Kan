@@ -220,7 +220,7 @@ await conn.sendFile(m.chat, imagen1, 'yaemori.jpg', text.trim(), fkontak, null, 
 handler.help = ['menu']
 handler.tags = ['main']
 handler.command = ['menu', 'menú', 'menuall', 'allmenú', 'allmenu', 'menucompleto'] 
-handler.register = true
+
 
 export default handler
 
