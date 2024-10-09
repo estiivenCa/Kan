@@ -59,7 +59,7 @@ handler.tags = ['descargas']
 handler.help = ['tiktok']
 handler.command = ['tiktok','ttdl','tiktokdl','tiktoknowm','tt','ttnowm','tiktokaudio'];
 handler.group = true;
-handler.register = true
+
 export default handler;
 
 async function tiktokdlF(url) {
