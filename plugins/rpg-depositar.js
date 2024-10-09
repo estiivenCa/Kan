@@ -23,5 +23,4 @@ handler.help = ['depositar']
 handler.tags = ['rpg']
 handler.command = ['deposit', 'depositar', 'dep', 'aguardar']
 handler.group = true;
-handler.register = true
 export default handler 
