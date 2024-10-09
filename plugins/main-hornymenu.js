@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+/* import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `💥 *¡Estos comandos están desactivados!*`; 
   try {
@@ -82,3 +82,4 @@ function clockString(ms) {
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
   return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
 }
+ */
