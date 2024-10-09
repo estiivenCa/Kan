@@ -38,7 +38,6 @@ handler.help = ['apostar *<cantidad>*']
 handler.tags = ['fun']
 handler.command = ['apostar','casino']
 handler.group = true;
-handler.register = true
 handler.fail = null
 export default handler
 
